@@ -1,0 +1,233 @@
+@import url ('https://fonts.googleapis.com/css2? family = Poppins: wght @ 500 & display = swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    float: none;
+}
+
+.header{
+    background-size:220px 38px;
+    width: 100%;
+    height: 70px;
+    background-color: #3A5E14;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem_capa{
+    display: block;
+    width: 100%;
+    height: 504px;
+    background:url(./images/capa-compras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:80px;
+    color: #fff;
+    line-height: 90%;
+    padding-top: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:40px;
+    line-height: 90%;
+    color:000000;
+    margin-top: 80px;
+    margin-left: 20px;
+    display:table-cell;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+
+}
+
+.p_box_1{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    width: 70%;
+    max-width: 600px;
+    padding: 1px 10px 10px 10px;
+}
+
+.box_1{
+    background-color: #FCE8DD;
+    text-align: left;
+    width: 100%;
+
+}
+
+.imagem_left{
+    display: block;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 5%;
+    float:left;    
+    
+}
+
+.box_2{
+    display: block;
+    width: 100%;
+    height: 561px;
+    background-image: url(./images/supermercado-amelie-3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p_box_2{
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    background-repeat:no-repeat;
+    color: #000;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    margin: 100px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    float:left;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 45px;
+    margin-top: 40px;
+    margin-left:80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    float:left; 
+}
+
+.estrela_amarela{
+    color: #F7C94C;
+}
+
+.estrela_cinza{
+    color: #ddd;
+}
+
+.mapa{
+    display: flex;
+    justify-content: flex-end;
+    float:right; 
+    border: 1px solid #ddd;
+    margin: 40px 100px 20px 40px;
+}
+
+.botao{
+    height: 40px;
+    width: 220px;
+    display:inline-flex;
+    color: #fff;
+    outline: none;
+    background-color:#9A453D;
+    border:none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 5px 5px auto;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 24px;
+    }
+
+    button:hover{
+        background:#9A453D;
+    }
+
+    button:active{
+        background:#8d342c;
+    }
+
+    .box_4{
+        background-color: #FCE8DD;
+        text-align: left;
+        width: 100%;
+    }
+
+    .box_5{
+        display: flex;
+        width: 100%;
+        height: 561px;
+        background-image: url(./images/palace-video.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .p_box_5{
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    background-repeat:no-repeat;
+    color: #000;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    margin: 300px 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    float:left;
+    display: flex;
+    }
+
+    .box_7{
+        background-color: #FCE8DD;
+        text-align: left;
+        width: 100%;    
+    }
+
+    .box_8{
+        display: flex;
+        width: 100%;
+        height: 561px;
+        background-image: url(./images/amelie-com-mascara-de-zorro.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    a{
+        text-decoration: none;
+        font-weight: 900;
+        color: #3A5E14;
+
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
