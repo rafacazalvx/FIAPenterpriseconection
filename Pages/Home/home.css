@@ -1,7 +1,8 @@
 .header h4 {
     color: white;
     font-family: 'Dancing Script', cursive;
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 30px;
     margin-top: 15px;
 }
 
@@ -77,7 +78,7 @@ img {
   .carousel-container {
     max-width: 37rem;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     font-family: 'Lato', sans-serif;
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -279,7 +280,7 @@ a {
     top: 35%;
     bottom: 90%;
     color: rgb(255, 255, 255);
-    font-size: 3em;
+    font-size: 2.5em;
     position: absolute; 
     left: 0; 
     width: 100%; 
@@ -298,10 +299,10 @@ a {
 }
 
 .creators-ph img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .home-footer {
@@ -331,7 +332,7 @@ a {
     right: 50%;
     left: 50%;
     position: absolute;
-    margin-left: -15%;
+    margin-left: -20%;
     bottom: 10%;
     width: 50%;
 }
