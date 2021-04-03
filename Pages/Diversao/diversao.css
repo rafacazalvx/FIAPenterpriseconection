@@ -117,21 +117,21 @@ button {
     margin-top: 18px;
 }
 
-.citação_carrossel{
+.carrossel{
     background: url(./images/2.jpg) no-repeat center / cover;
 }
 
-.citação_canal{
+.canal {
      background: url(./images/4.jpeg) no-repeat center / cover;
 }
-.citacao_basílica{
+.basilica {
     background: url(./images/6.jpg) no-repeat center / cover;
 }
-.citacao_notre{
+.notre {
     background: url(./images/8.jpg) no-repeat center / cover;
 }
 
-.citacao_studio{
+.studio {
     background: url(./images/10.jpg) no-repeat center / cover;
 }
 
