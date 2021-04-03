@@ -41,7 +41,8 @@ main {
 .apresentacao {
     height: 60vh;
     width: 100vw;
-    background: url(/Pages/Diversao/images/capa.jpg) no-repeat center / cover;
+    background: url(./images/capa.jpg) no-repeat center / cover;
+
 }
 
 .conteudo {
@@ -117,22 +118,22 @@ button {
     margin-top: 18px;
 }
 
-.citação_carrossel. {
-    background: url(/Pages/Diversao/images/2.jpg) no-repeat center / cover;
+.citação_carrossel.{
+    background: url(./images/2.jpg) no-repeat center / cover;
 }
 
-.citação_canal. {
-     background: url(/Pages/Diversao/images/4.jpg) no-repeat center / cover;
+.citação_canal.{
+     background: url(./images/4.jpeg) no-repeat center / cover;
 }
 .citacao_basílica {
-    background: url(/Pages/Diversao/images/6.jpg) no-repeat center / cover;
+    background: url(./images/6.jpg) no-repeat center / cover;
 }
 .citacao_notre{
-    background: url(/Pages/Diversao/images/8.jpg) no-repeat center / cover;
+    background: url(./images/8.jpg) no-repeat center / cover;
 }
 
 .citacao_studio{
-    background: url(/Pages/Diversao/images/10.jpg) no-repeat center / cover;
+    background: url(./images/10.jpg) no-repeat center / cover;
 }
 
 .conteudo-local p {
@@ -161,3 +162,5 @@ button {
 
 .estrela-cinza {
     color: #ddd;
+}
+
