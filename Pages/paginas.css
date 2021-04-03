@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2? family = Poppins: wght @ 500 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    width: 100vw;
+    background-color: #3A5E14;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.local {
+    height: 100vh;
+    width: 100vw;
+    background: #FCE8DD;
+}
+
+.dados {
+    height: 80vh;
+    width: 100vw;
+    background: #fff;
+}
+
+.citacao {
+    height: 80vh;
+    width: 100vw;
+    background: no-repeat center / contain;
+}
+
+.apresentacao-transporte {
+    height: 60vh;
+    width: 100vw;
+    background: url(./images/metro-capa.jpg) no-repeat center / cover;
+}
+
+.apresentacao-gastronomia {
+    height: 60vh;
+    width: 100vw;
+    background: url(./images/metro-capa.jpg) no-repeat center / cover;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.conteudo-quote {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 90%;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.imagem-local {
+    height: 70%;
+    width: 35vw;
+    object-fit: contain;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:80px;
+    color: #fff;
+    padding-top: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:40px;
+    color:000000;
+    padding-bottom: 40px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 600px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    max-width: 600px;
+    color: #3A5E14;
+}
+
+.espaco-gastronomia {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+button {
+    height: 40px;
+    width: 220px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    background-color:#9A453D;
+    margin-top: 18px;
+}
+
+.conteudo-local p {
+    margin-bottom: 18px;
+}
+
+.quote {
+    max-width: 500px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+}
+
+.conteudo-mapa p {
+    margin-top: 10px;
+}
+
+.rating {
+    display: flex;
+}
+
+.estrela-amarela {
+    color: #F7C94C;
+}
+
+.estrela-cinza {
+    color: #ddd;
+}
+
+.gare-d-lest {
+    background: url(./images/amelie-na-estacao.jpeg) no-repeat center / cover;
+}
+.gare-d-nort {
+    background: url(./images/amelie-gare-du-nord.jpeg) no-repeat center / cover;
+}
+
+.cafe-dois-moulins {
+    background: url(./images/amelie-no-cafe-dois-moulins.png) no-repeat center / cover;
+}
+
+.o-que-comer {
+    background: url(./images/o-que-comer-no-dois-moulins.png) no-repeat center / cover;
+}
+
+.le-verre-a-pied {
+    background: url(./images/amelie-le-verre-a-pied.png) no-repeat center / cover;
+}
+
+#o-que-comer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+#o-que-comer h1 {
+    padding: 0;
+    font-family: 'PT sans', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #9A453D;
+}
