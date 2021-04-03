@@ -32,9 +32,9 @@
     display: block;
     width: 100%;
     height: 504px;
-    background:url(./images/foto2.jpg);
+    background:url(./images/foto1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
 }
 
 h1{
@@ -92,6 +92,31 @@ h2{
     
 }
 
+.box_2{
+    display: block;
+    width: 100%;
+    height: 561px;
+    background-image: url(./images/foto3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p_box_2{
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    background-repeat:no-repeat;
+    color: #000;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    margin: 100px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    float:left;
+    display: flex;
+}
 
 ul{
     list-style: none;
@@ -107,8 +132,13 @@ ul{
     float:left; 
 }
 
+.estrela_amarela{
+    color: #F7C94C;
+}
 
-
+.estrela_cinza{
+    color: #ddd;
+}
 
 .mapa{
     display: flex;
@@ -118,8 +148,79 @@ ul{
     margin: 40px 100px 20px 40px;
 }
 
+.botao{
+    height: 40px;
+    width: 220px;
+    display:inline-flex;
+    color: #fff;
+    outline: none;
+    background-color:#9A453D;
+    border:none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 5px 5px auto;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 24px;
+    }
 
-   
+    button:hover{
+        background:#9A453D;
+    }
+
+    button:active{
+        background:#8d342c;
+    }
+
+    .box_4{
+        background-color: #FCE8DD;
+        text-align: left;
+        width: 100%;
+    }
+
+    .box_5{
+        display: flex;
+        width: 100%;
+        height: 561px;
+        background-image: url(./images/amelie-le-verre-a-pied.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .p_box_5{
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    background-repeat:no-repeat;
+    color: #000;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    margin: 300px 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    float:left;
+    display: flex;
+    }
+
+    .box_7{
+        background-color: #FCE8DD;
+        text-align: left;
+        width: 100%;    
+    }
+
+    .box_8{
+        display: flex;
+        width: 100%;
+        height: 561px;
+        background-image: url(./images/amelie-com-mascara-de-zorro.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     a{
         text-decoration: none;
         font-weight: 900;
@@ -129,4 +230,23 @@ ul{
 
     a:hover{
         text-decoration: underline;
+    }
+
+    .box_c{
+        display: flex;
+        width: 100%;
+        height: 561px;
+        background-image: url(./images/foto4.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .h2_creme{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:40px;
+    line-height: 90%;
+    color:#9A453D;
+    justify-content: center;
+    margin: 50px auto;
     }
