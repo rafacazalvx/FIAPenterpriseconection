@@ -42,7 +42,6 @@ main {
     height: 60vh;
     width: 100vw;
     background: url(./images/capa.jpg) no-repeat center / cover;
-
 }
 
 .conteudo {
@@ -118,14 +117,14 @@ button {
     margin-top: 18px;
 }
 
-.citação_carrossel {
+.citação_carrossel{
     background: url(./images/2.jpg) no-repeat center / cover;
 }
 
-.citação_canal {
+.citação_canal{
      background: url(./images/4.jpeg) no-repeat center / cover;
 }
-.citacao_basílica {
+.citacao_basílica{
     background: url(./images/6.jpg) no-repeat center / cover;
 }
 .citacao_notre{
@@ -163,4 +162,3 @@ button {
 .estrela-cinza {
     color: #ddd;
 }
-
